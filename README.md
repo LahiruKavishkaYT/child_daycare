@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# Little Stars Daycare
 
-## Project info
+A modern, responsive daycare website built with React, TypeScript, and Tailwind CSS.
 
-**URL**: https://lovable.dev/projects/4a79a595-3c8e-4df8-82b4-ea4411c68207
+## Features
 
-## How can I edit this code?
+- Responsive design for all devices
+- Modern UI with shadcn-ui components
+- Programs and services showcase
+- Contact forms and testimonials
+- Gallery and resources sections
 
-There are several ways of editing your application.
+## Technologies Used
 
-**Use Lovable**
+- **Frontend Framework**: React 18
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn-ui
+- **Build Tool**: Vite
+- **Package Manager**: Bun
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4a79a595-3c8e-4df8-82b4-ea4411c68207) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v18 or higher)
+- Bun package manager
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd child_daycare
 ```
 
-**Edit a file directly in GitHub**
+2. Install dependencies:
+```bash
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Start the development server:
+```bash
+bun run dev
+```
 
-**Use GitHub Codespaces**
+4. Open your browser and navigate to `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Available Scripts
 
-## What technologies are used for this project?
+- `bun run dev` - Start the development server
+- `bun run build` - Build the project for production
+- `bun run build:dev` - Build the project in development mode
+- `bun run preview` - Preview the production build
+- `bun run lint` - Run ESLint
 
-This project is built with:
+## Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions
+└── assets/        # Images and static assets
+```
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/4a79a595-3c8e-4df8-82b4-ea4411c68207) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project is private and proprietary.
