@@ -226,4 +226,19 @@ All colors MUST be HSL.
   .bg-gradient-warm {
     background: var(--gradient-warm);
   }
+  
+  /* Text Enhancement */
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Backdrop Effects */
+  .backdrop-enhanced {
+    backdrop-filter: blur(10px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 }

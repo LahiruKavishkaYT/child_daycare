@@ -10,27 +10,28 @@ const HeroSection = () => {
         <img 
           src={heroImage} 
           alt="Happy children playing at Little Stars Daycare"
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-30"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-primary/60 to-secondary/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-secondary/70"></div>
+        <div className="absolute inset-0 bg-black/20"></div>
       </div>
       
       {/* Floating Elements */}
-      <div className="absolute top-20 left-10 w-8 h-8 bg-secondary rounded-full animate-bounce-subtle opacity-60"></div>
-      <div className="absolute top-40 right-20 w-6 h-6 bg-coral rounded-full animate-float opacity-60"></div>
-      <div className="absolute bottom-32 left-20 w-10 h-10 bg-accent rounded-full animate-bounce-subtle opacity-60"></div>
+      <div className="absolute top-20 left-10 w-8 h-8 bg-secondary rounded-full animate-bounce-subtle opacity-80 shadow-lg"></div>
+      <div className="absolute top-40 right-20 w-6 h-6 bg-coral rounded-full animate-float opacity-80 shadow-lg"></div>
+      <div className="absolute bottom-32 left-20 w-10 h-10 bg-accent rounded-full animate-bounce-subtle opacity-80 shadow-lg"></div>
       
       {/* Main Content */}
       <div className="relative z-10 text-center max-w-6xl mx-auto px-6 animate-fade-in-up">
-        <h1 className="text-5xl md:text-7xl font-heading font-bold text-white mb-6 leading-tight">
+        <h1 className="text-5xl md:text-7xl font-heading font-bold text-white mb-6 leading-tight drop-shadow-lg">
           A Safe, Fun & 
-          <span className="text-secondary block animate-pulse-glow">
+          <span className="text-secondary block animate-pulse-glow drop-shadow-md">
             Nurturing Space
           </span>
           for Your Child
         </h1>
         
-        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto font-body leading-relaxed">
+        <p className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto font-body leading-relaxed drop-shadow-md">
           Where learning meets play in a loving environment designed to help your little star shine bright
         </p>
         
@@ -48,7 +49,7 @@ const HeroSection = () => {
           <Button 
             variant="outline" 
             size="lg" 
-            className="bg-white/10 border-white text-white hover:bg-white hover:text-primary"
+            className="bg-white/20 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary shadow-lg"
           >
             <Phone className="w-5 h-5 mr-2" />
             Call Us Today
@@ -56,18 +57,18 @@ const HeroSection = () => {
         </div>
         
         {/* Trust Indicators */}
-        <div className="mt-12 flex flex-wrap justify-center gap-8 text-white/80">
-          <div className="text-center">
-            <div className="text-2xl font-bold text-secondary">5★</div>
-            <div className="text-sm">Parent Rating</div>
+        <div className="mt-12 flex flex-wrap justify-center gap-8 text-white">
+          <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4">
+            <div className="text-2xl font-bold text-secondary drop-shadow-md">5★</div>
+            <div className="text-sm drop-shadow-sm">Parent Rating</div>
           </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-secondary">15+</div>
-            <div className="text-sm">Years Experience</div>
+          <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4">
+            <div className="text-2xl font-bold text-secondary drop-shadow-md">15+</div>
+            <div className="text-sm drop-shadow-sm">Years Experience</div>
           </div>
-          <div className="text-center">
-            <div className="text-2xl font-bold text-secondary">200+</div>
-            <div className="text-sm">Happy Families</div>
+          <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-4">
+            <div className="text-2xl font-bold text-secondary drop-shadow-md">200+</div>
+            <div className="text-sm drop-shadow-sm">Happy Families</div>
           </div>
         </div>
       </div>

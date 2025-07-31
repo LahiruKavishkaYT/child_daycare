@@ -19,7 +19,7 @@ const buttonVariants = cva(
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
         // Daycare-specific variants
-        cta: "bg-gradient-to-r from-secondary to-coral text-secondary-foreground font-semibold hover:from-secondary/90 hover:to-coral/90 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105 animate-pulse-glow",
+        cta: "bg-gradient-to-r from-secondary to-coral text-secondary-foreground font-semibold hover:from-secondary/90 hover:to-coral/90 hover:shadow-2xl transform hover:-translate-y-1 hover:scale-105 shadow-lg border-2 border-white/20",
         hero: "bg-primary text-primary-foreground font-semibold text-lg px-8 py-4 rounded-full hover:bg-primary/90 hover:shadow-xl transform hover:-translate-y-1 hover:scale-105",
         soft: "bg-accent text-accent-foreground hover:bg-accent/90 hover:shadow-md transform hover:-translate-y-0.5",
         warm: "bg-coral text-coral-foreground hover:bg-coral/90 hover:shadow-lg transform hover:-translate-y-0.5",
